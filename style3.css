@@ -1,0 +1,133 @@
+
+        .header{
+            background-color: rgb(50, 180, 180);
+            padding:5px 5px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+    
+    .header-links a{
+      color:#000000;
+      font-size: large;
+      padding: 15px 25px;
+      text-decoration:none;
+      border-radius: 15px;
+    }
+    .header-links a:hover{
+     background-color:#e6e6e6;
+     border-radius: 50px;
+    }
+        .parent1{
+            display: flex;
+            gap: 12px;
+
+        }
+        .products1{
+            width: 450px;
+
+        }
+        .products-info1{
+            display: flex;
+            justify-content: space-between;
+            background-color: #EEEEEE;
+            padding: 5px 25px ;
+            align-items: center;
+            border-radius:30px;
+        }
+        
+        .products2{
+            width: 450px;
+          
+
+        }
+        .products-info2{
+            display: flex;
+            justify-content: space-between;
+            background-color: #EEEEEE;
+            padding: 5px 25px ;
+            align-items: center;
+            border-radius:30px;
+        }
+       
+        .products3{
+            width: 450px;
+           
+
+        }
+        .products-info3{
+            display: flex;
+            justify-content: space-between;
+            background-color: #EEEEEE;
+            padding: 5px 25px ;
+            align-items: center;
+            border-radius:30px;
+        }
+        
+        .parent2{
+            display: flex;
+            gap: 12px;
+            padding: 7px 90px; 
+
+        }
+        .products4{
+            width: 500px;
+
+        }
+        .products-info4{
+            display: flex;
+            justify-content: space-between;
+            background-color: #EEEEEE;
+            padding: 5px 25px ;
+            align-items: center;
+            border-radius:30px;
+        }
+       
+        .products5{
+            width: 500px;
+
+        }
+        .products-info5{
+            display: flex;
+            justify-content: space-between;
+            background-color: #EEEEEE;
+            padding: 5px 25px ;
+            align-items: center;
+            border-radius:30px;
+        }
+      
+        .products6{
+            width: 500px;
+
+        }
+        .products-info6{
+            display: flex;
+            justify-content: space-between;
+            background-color: #EEEEEE;
+            padding: 5px 25px ;
+            align-items: center;
+            border-radius:30px;
+           
+        }
+        .button{
+            
+                background-color:rgb(50, 180, 180);
+                color:white;
+                padding:15 25px;
+               
+                border-radius:70px;
+                width: 95px; 
+                height: 50px; 
+                font-size: 17px;
+                border:none;
+                  }
+                  .button:hover{
+            color:rgb(2, 47, 47);
+            
+                  }
+        
+        
+       
+          
+
+        

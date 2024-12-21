@@ -1,0 +1,155 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pharmacy News</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f9fafa;
+        }
+
+        header {
+            background-color: #88c5cc; 
+            color: white;
+            padding: 2rem 3rem;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        header p {
+            font-size: 1.9rem;
+            font-style: italic;
+            color: navy ;
+
+        }
+
+        .news-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 1.5rem;
+            padding: 2rem;
+        }
+
+        .news-card {
+            background-color: #d5f3f4; 
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            overflow: hidden;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .news-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+        }
+
+        .news-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .news-content {
+            padding: 1rem;
+        }
+
+        .news-title {
+            font-size: 1.2rem;
+            font-weight: bold;
+            color: #336d73; 
+            margin-bottom: 0.5rem;
+        }
+
+        .news-description {
+            font-size: 1.0rem;
+            color: #4a4a4a;
+            margin-bottom: 1rem;
+        }
+
+        .read-more {
+            display: inline-block;
+            text-decoration: none;
+            color: white;
+            background-color: #88c5cc;
+            padding: 0.5rem 1rem;
+            border-radius: 5px;
+            font-size: 0.9rem;
+            transition: background-color 0.3s ease;
+        }
+
+        .read-more:hover {
+            background-color: #5da0a6;
+        }
+
+        footer {
+            background-color: #336d73;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Pharmacy News</h1>
+        <p>تابع اخبرنا يوم بيوم ليصلك كل جديد</p>
+    </header>
+
+    <div class="news-container">
+
+    <div class="news-container">
+        <!-- News Card 1 -->
+        <div class="news-card">
+            <img src="C:\Users\Hp\Desktop\rsa-main\web project\WhatsApp Image 2024-12-21 at 21.10.34_ea0f9096.jpg "alt="Health News"/>
+            <div class="news-content">
+                <h3 class="news-title">اافتتاح فرع جديد </h3>
+                <p class="news-description">نرحب بكم في فرعنا الجديد انتظرونا قريبا .</p>
+                <a href="#" class="read-more">Read More</a>
+            </div>
+        </div>
+
+        <!-- News Card 2 -->
+        <div class="news-card">
+            <img src="C:\Users\Hp\Desktop\rsa-main\web project\WhatsApp Image 2024-12-21 at 21.10.39_56b95f32.jpg" alt="Pharmacy Updates">
+            <div class="news-content">
+                <h3 class="news-title">عروض </h3>
+                <p class="news-description">انتظرونا قريبا في كل فروعنا بعروض تصل الي 50 % .</p>
+                <a href="#" class="read-more">Read More</a>
+            </div>
+        </div>
+
+    
+        <div class="news-card">
+            <img src="C:\Users\Hp\Desktop\rsa-main\web project\WhatsApp Image 2024-12-21 at 21.11.18_9a96da78.jpg" alt="Health Insights">
+            <div class="news-content">
+                <h3 class="news-title">طرح دواءجديد</h3>
+                <p class="news-description">يتوفر الان لدي صيدليتنا دواء جديد للسمنه</p>
+                <a href="#" class="read-more">Read More</a>
+            </div>
+        </div>
+
+        <div class="news-card">
+            <img src="C:\Users\Hp\Desktop\rsa-main\web project\WhatsApp Image 2024-12-21 at 21.11.18_43964c83.jpg" alt="Health Insights">
+            <div class="news-content">
+                <h3 class="news-title">تركبيات جديده</h3>
+                <p class="news-description">يتوفر الان لدي صيدليتنا بجميع فروعنا تركيبه جديده للتخلص من حب الشباب</p>
+                <a href="#" class="read-more">Read More</a>
+            </div>
+        </div>
+    </div>
+
+   
+</body>
+</html>

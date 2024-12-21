@@ -1,0 +1,110 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header Styles */
+header {
+    
+    background-color: rgb(50, 180, 180); /* Green background for header */
+    padding: 10px 0;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 150px;
+}
+
+
+header nav ul {
+    align-items: center;
+    list-style-type: none;
+    display: flex;
+    padding-left: 0;
+    
+}
+
+header nav ul li {
+    margin-right: 20px;
+    
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+header nav ul li a:hover {
+    color: rgb(2, 47, 47); /* Darker green on hover */
+}
+
+#logo {
+    width: 120px; /* Set logo width */
+    height: auto; /* Keep aspect ratio */
+    margin-left: 20px; /* Space from the left */
+}
+
+/* Main Content */
+main {
+    padding: 20px;
+    background-color: white;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  
+}
+
+h1, h2 {
+    color: rgb(50, 180, 180); /* Green color for headings */
+}
+
+form {
+    margin-top: 20px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="date"],
+form input[type="time"] {
+    padding: 10px;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form input[type="submit"] {
+    background-color: rgb(50, 180, 180); /* Green submit button */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+form input[type="submit"]:hover {
+    background-color: rgb(50, 180, 180); /* Darker green on hover */
+}
+
+/* Footer Styles */
+footer {
+    background-color: rgb(50, 180, 180); /* Green footer */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}

@@ -1,0 +1,99 @@
+ body{
+ font-family: "Roboto", sans-serif;
+ margin:0;
+background-color:#f2f2f2;
+ }
+ .header{
+ background-color:#ffffff;
+ display:flex;
+ justify-content:space-between;
+ align-items:center;
+ padding:20px 100px;
+ border-radius:0 0 50px 30px;
+ }
+
+ .logo{
+  width:150px;
+  
+ }
+ .header-links a{
+   color:#000000;
+   padding: 15px 25px;
+   text-decoration:none;
+   border-radius: 15px;
+ }
+ .header-links a:hover{
+  background-color:#e6e6e6;
+  border-radius: 50px;
+ }
+
+.landing-page {
+background-color:#f2f2f2;
+justify-content:space-between;
+display:flex; 
+align-items:center;
+padding:10px 50px;
+}
+.color{
+ color:rgb(50,180,180);
+}
+.space{
+position: absolute;
+left:75px;
+width: 750px;
+}
+
+.landing-page-left-section{
+width: 750px;
+}
+
+.landind-page-image-container img{
+border-radius: 40px;
+height:450px;
+width: 500px;
+padding: 10px 20px;1
+position: absolute;
+left:700px;
+
+}
+.new-image img{
+border-radius: 40px;
+height:450px;
+width: 500px;
+padding:10px 20px;
+position: absolute;
+right:75px;
+
+}
+
+ .phone1{
+ position: absolute;
+ left:30px;
+ display:flex;
+ justify-content:space-between;
+ align-items:center;
+ padding:10px 50px;
+ height:80px;
+ }
+
+.phone-image{
+ position: absolute;
+ left:0px;
+ display:flex;
+ justify-content:space-between;
+ align-items:center;
+ padding:10px 50px;
+ height:80px;
+ }
+
+
+.border{
+ display:flex;
+border:10px;
+height:70px;
+padding:10px 10px 20px 50px;
+}
+
+.border:hover{
+ background-color:#e5e5e5;
+}
